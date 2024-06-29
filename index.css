@@ -1,5 +1,5 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("Background_design.png");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
@@ -25,6 +25,12 @@ h2 {
     margin-bottom: 20px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 button {
     border: 1px solid black;
     padding-top: 10px;
@@ -38,6 +44,10 @@ button {
 
 #increment-btn {
     background: #2C2891;
+}
+
+#decrement-btn {
+    background: #cc0000; /* Add a background color for the decrement button */
 }
 
 #save-btn {
